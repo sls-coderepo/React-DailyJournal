@@ -4,7 +4,7 @@ import { BrowserRouter as Router } from "react-router-dom"
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Journal from './Components/Journal'
+import Journal from './Components/nav'
 
 ReactDOM.render(<Router><Journal /></Router>, document.getElementById('root'));
 
